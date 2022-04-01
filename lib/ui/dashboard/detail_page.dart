@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web/models/campaign_model.dart';
 
@@ -10,8 +9,9 @@ class DetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          automaticallyImplyLeading: kIsWeb ? false : true,
+          //automaticallyImplyLeading: kIsWeb ? false : true,
           title: Text('${model.title}'),
+          actions: [],
         ),
         body: Center(
           child: Text("Campaign id = ${model.id}"),
