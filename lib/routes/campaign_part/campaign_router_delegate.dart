@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web/models/campaign_model.dart';
 import 'package:flutter_web/routes/campaign_part/campaign_route_part.dart';
-import 'package:flutter_web/ui/unknow_page.dart';
+import 'package:flutter_web/ui/unknown_page.dart';
 import '../../ui/dashboard/dashboard_page.dart';
 import '../../ui/dashboard/detail_page.dart';
 import '../../ui/login/login_page.dart';
